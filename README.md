@@ -13,7 +13,47 @@ and creating a RESTful API to make requests against.
 
 Start with simple unit tests and create classes that work together and core functionality is achieved before moving on 
 to getting it to work in Spring.
- 
+
+Development Practices For Interview Katas
+=====================
+Make Frequent Commits
+---------------------
+Use the Red -> Green -> Refactor cycle to help drive commits.
+- Pass a test -> Make a commit!
+- Refactor -> Make a commit!
+
+Use Feature Branching
+---------------------
+The features listed below can all be done in feature branches for git workflow practice.  Open a pull request to the 
+'dev' branch when the feature is done.
+
+Use Descriptive Commit Messages
+-------------------------------
+This is a good practice for interview katas, you don't want to be seen as a developer that writes "Another commit" on 
+the projects third commit.  
+
+Some tips:
+- **Use multi-line commit messages with Git Bash.**  After you have entered the title of your commit, don't close the 
+String, hit 'Enter/Return' twice to add a couple new lines and then you can enter comments in addition to your commit 
+title. 
+- **Don't know what to say? Use the test title!**  Use the test title for you commit title, but make it readable, don't 
+use camel case.  Sometimes a commit won't have comments, that's ok, the first couple tests might not change much in the 
+system, let the test title convey the meaning of the commit in that case.
+- **"I FORGOT TO COMMIT SINCE 6 TESTS AGO!"** Better late than never!
+- **Changed a bunch of stuff during refactoring?** Be specific about which files are being commited using `git add 
+<filename>` instead of `git add .`.  You can add more than one file to a commit with this command.  This will allow you 
+to make smaller commits and focus your commit message on those specific files.
+
+Have a Plan
+-----------
+Make a plan, but keep it general.  The beautiful thing about TDD is that sometimes a more simple solution presents 
+itself.
+
+Practice OOP Principles
+-----------------------
+This is a great exercise for the SOLID principles of Object Orientated Programming.  Read about them and see if you can 
+use them in this exercise.
+
 Features
 ========
 
