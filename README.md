@@ -1,4 +1,4 @@
-#Vending Machine Kata
+# Vending Machine Kata
 ###### Based on [Guy Royse's version.](https://github.com/guyroyse/vending-machine-kata)
 
 
